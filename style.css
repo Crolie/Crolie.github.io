@@ -1,0 +1,28 @@
+header{
+    background-color: #e0dad2;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    height: 100px;
+}
+nav{
+    background-color: #b1a694;
+}
+nav a:hover{
+    background-color: #e0dad2;
+    border-radius: 5px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+main{
+    height: 100%;
+    background-color: #252020;
+    color: white;
+}
+footer{
+    background-color: #e0dad2;
+    padding: 20px;
+    text-align: center;
+}
