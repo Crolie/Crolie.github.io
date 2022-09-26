@@ -17,196 +17,133 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
+    <!-- Title Icon -->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <title>Guitarista</title>
 </head>
 <body>
-    <header>
-        <img src="images/GUITARISTA_logo.png" alt="logo">
-    </header>
-    <nav class="navbar sticky-top navbar-expand-sm bg-gradient">
-        <div class="container-fluid d-flex justify-content-sm-center">
-            <div>
+    <!-- Header -->
+    <!-- <header>
+        <img src="images/Guitarista.png" alt="logo">
+    </header> -->
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-sm p-3 container-fluid justify-content-sm-center">
+        <div>
             <button type="button" class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#navbar_collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbar_collapse">
-                <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link mx-md-2 active"><b>Guitars</b></a>
-                    <a href="#" class="nav-item nav-link mx-md-2"><b>Brands</b></a>
+            <div class="collapse navbar-collapse mx-5" id="navbar_collapse">
+                <!-- Logo -->
+                <a href="index.html"><img src="images/Guitarista.png"  alt="logo" class="mx-5"></a>
+                <div class="navbar-nav d-flex align-items-center fs-6 mx-5">
+                    <a href="guitars.html" class="nav-item nav-link mx-md-2 "><b>Guitars</b></a>
+                    <a href="brands.html" class="nav-item nav-link mx-md-2"><b>Brands</b></a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-item nav-link dropdown-toggle mx-md-2" data-bs-toggle="dropdown"><b>Artists/Bands</b></a>
+                        <a href="#" class="nav-item nav-link dropdown-toggle mx-md-2" data-bs-toggle="dropdown"><b>Guitar Artists</b></a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="">Foreign</a>
-                            <a class="dropdown-item" href="">Local</a>
+                            <a class="dropdown-item" href="foreign.html">Foreign</a>
+                            <a class="dropdown-item" href="local.html">Local</a>
                         </div>
                     </div>
-                    <a href="#" class="nav-item nav-link mx-md-2"><b>Guides</b></a>
-                    <a href="#" class="nav-item nav-link mx-md-2"><b>Learn</b></a>
-                    <a href="#" class="nav-item nav-link mx-md-2"><b>About</b></a>
+                    <a href="guides.html" class="nav-item nav-link mx-md-2 bd-highlight"><b>Guides</b></a>
+                    <a href="learn.html" class="nav-item nav-link mx-md-2"><b>Learn</b></a>
+                    <a href="#about" class="nav-item nav-link mx-md-2"><b>About</b></a>
                 </div>
-            </div>
             </div>
         </div>
     </nav>
+
+
+    <!-- Main Content -->
     <main class="container-fluid p-5">
         <h2>Guitars</h2>
-        <div class="row row-cols-sm-1 row-cols-md-3">
-            <div class="col">
-                <div class="card text-black mb-4" id="secondary">
-                    <div class="card-body ">
-                        <h5 class="card-title">Secondary Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
+        <div class="d-flex justify-content-center">
+            <div class="card m-4 text-white text-center rounded-3">
+                <div class="card-body p-0">
+                    <img src="images\guitars.png"  alt="photo" class="img-fluid rounded-3">
                 </div>
             </div>
         </div>
+           
+        
+       
         <h2>Brands</h2>
-        <div class="row row-cols-sm-1 row-cols-md-3">
-            <div class="col">
-                <div class="card bg-secondary text-white mb-4" id="secondary">
-                    <div class="card-body ">
-                        <h5 class="card-title">Secondary Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
+        <div class="d-flex justify-content-center">
+            <div class="card m-4 text-white text-center rounded-3">
+                <div class="card-body p-0">
+                    <img src="images\brands.png"  alt="photo" class="img-fluid rounded-3">
                 </div>
             </div>
         </div>
-        <h2>Artists/Bands</h2>
-        <div class="row row-cols-sm-1 row-cols-md-3">
-            <div class="col">
-                <div class="card bg-secondary text-white mb-4" id="secondary">
-                    <div class="card-body ">
-                        <h5 class="card-title">Secondary Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
+
+        <h2>Guitar Artists</h2>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
+        <div class="d-flex justify-content-center">
+            <div class="card m-4 text-white text-center rounded-3">
+                <div class="card-body p-0">
+                    <img src="images\guitarists.png"  alt="photo" class="img-fluid rounded-3">
                 </div>
             </div>
         </div>
+
         <h2>Guides</h2>
-        <div class="row row-cols-sm-1 row-cols-md-3">
-            <div class="col">
-                <div class="card bg-secondary text-white mb-4" id="secondary">
-                    <div class="card-body ">
-                        <h5 class="card-title">Secondary Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
+        <div class="d-flex justify-content-center">
+            <div class="card m-4 text-white text-center rounded-3">
+                <div class="card-body p-0">
+                    <img src="images\guides.gif"  alt="photo" class="img-fluid rounded-3">
                 </div>
             </div>
         </div>
+
         <h2>Learn</h2>
-        <div class="row row-cols-sm-1 row-cols-md-3">
-            <div class="col">
-                <div class="card bg-secondary text-white mb-4" id="secondary">
-                    <div class="card-body ">
-                        <h5 class="card-title">Secondary Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-success text-white mb-4" id="home">
-                    <div class="card-body">
-                        <h5 class="card-title">Success Card</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laudantium </p>
-                        <a class="btn btn-primary stretched-link" href="#">View More</a>
-                    </div>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
+        <div class="d-flex justify-content-center mb-5">
+            <div class="card m-4 text-white text-center rounded-3">
+                <div class="card-body p-0">
+                    <img src="images\learn.gif"  alt="photo" class="img-fluid rounded-3">
                 </div>
             </div>
         </div>
+
+
+
+
+    <!-- About -->
+    <div class="container text-center" id="about">
+        <h2>About Guitarista</h2>
+        <hr>
+        <div class="d-flex justify-content-center my-5">
+            <div class="card m-4 text-white text-center rounded-3">
+                <div class="card-body">
+                    <img src="images/Guitarista.png"  alt="logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus laboriosam, cumque expedita blanditiis sapiente quis accusamus, cupiditate nihil veritatis nesciunt veniam fugiat. Odio dolores, praesentium dicta consequatur ratione accusantium officia quaerat eos distinctio minus repellat exercitationem aspernatur quis. Ex nobis minima nemo? Placeat ratione molestiae aut architecto explicabo libero aspernatur.</p>
+    </div>    
+    
+
+
+
+
+
+
     </main>
-    <footer class="">
+
+   
+
+
+    <!-- Footer -->
+    <footer class="text-center">
         <p>&#169 2022 Guitarista.com All Rights Reserved.</p>
     </footer>
 
 
-
-
+    
 
 
 
