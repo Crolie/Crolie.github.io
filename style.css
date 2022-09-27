@@ -22,8 +22,14 @@ main{
     color: white;
 }
 footer{
-    background-color: #000000;
+    background-color: #111010 ;
     padding: 20px;
     color: white;
+}
+.icon{
+    color: white;
+}
+.icon:hover{
+    color: rgb(86, 187, 218);
 }
 /* updated */
