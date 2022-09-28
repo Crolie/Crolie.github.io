@@ -27,91 +27,125 @@
         <img src="images/Guitarista.png" alt="logo">
     </header> -->
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-sm p-3 container-fluid justify-content-sm-center">
-        <div>
-            <button type="button" class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#navbar_collapse">
+    <nav class="navbar navbar-expand-md p-3 sticky-top">
+        <div class="container-fluid">
+            <div class="ms-md-5">
+                <a href="index.html"><img src="images/Guitarista.png"  alt="logo"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbarTogglerDemo2" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse mx-5" id="navbar_collapse">
-                <!-- Logo -->
-                <a href="index.html"><img src="images/Guitarista.png"  alt="logo" class="mx-5"></a>
-                <div class="navbar-nav d-flex align-items-center fs-6 mx-5">
-                    <a href="guitars.html" class="nav-item nav-link mx-md-2 "><b>Guitars</b></a>
-                    <a href="brands.html" class="nav-item nav-link mx-md-2"><b>Brands</b></a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-item nav-link dropdown-toggle mx-md-2" data-bs-toggle="dropdown"><b>Guitar Artists</b></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="foreign.html">Foreign</a>
-                            <a class="dropdown-item" href="local.html">Local</a>
-                        </div>
-                    </div>
-                    <a href="guides.html" class="nav-item nav-link mx-md-2 bd-highlight"><b>Guides</b></a>
-                    <a href="learn.html" class="nav-item nav-link mx-md-2"><b>Learn</b></a>
-                    <a href="#about" class="nav-item nav-link mx-md-2"><b>About</b></a>
+                <div class="navbar-collapse collapse justify-content-center mt-2 ms-3" id="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="guitars.html" class="nav-item nav-link mx-md-2"><b>Guitars</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="brands.html" class="nav-item nav-link mx-md-2"><b>Brands</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-item nav-link dropdown-toggle mx-md-2" data-bs-toggle="dropdown"><b>Guitar Artists</b></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="foreign.html">Foreign</a>
+                                <a class="dropdown-item" href="local.html">Local</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="guides.html" class="nav-item nav-link mx-md-2 bd-highlight"><b>Guides</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="learn.html" class="nav-item nav-link mx-md-2"><b>Learn</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-item nav-link mx-md-2"><b>About</b></a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
         </div>
-    </nav>
-
-
+      </nav>
     <!-- Main Content -->
     <main class="container-fluid p-5">
+        <!-- Guitars -->
         <h2>Guitars</h2>
-        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
-        <div class="d-flex justify-content-center">
-            <div class="card m-4 text-white text-center rounded-3">
-                <div class="card-body p-0">
-                    <img src="images\guitars.png"  alt="photo" class="img-fluid rounded-3">
-                </div>
-            </div>
+        <div class="d-flex justify-content-center my-5">
+            <img src="images\guitars.png"  alt="photo" class="img-fluid rounded-3">
         </div>
-           
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>   
+        <a href="guitars.html">
+            <button class="see-more">
+                <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Read More</span>
+            </button>
+        </a>
         
-       
+        <!-- Brands -->
+        <br><br>
         <h2>Brands</h2>
-        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
-        <div class="d-flex justify-content-center">
-            <div class="card m-4 text-white text-center rounded-3">
-                <div class="card-body p-0">
-                    <img src="images\brands.png"  alt="photo" class="img-fluid rounded-3">
-                </div>
-            </div>
+        <div class="d-flex justify-content-center my-5">
+            <img src="images\brands.png"  alt="photo" class="img-fluid rounded-3">
         </div>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
+        <a href="brands.html">
+            <button class="see-more">
+                <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Read More</span>
+            </button>
+        </a>
 
+        <!-- Guitar Artists -->
+        <br><br>
         <h2>Guitar Artists</h2>
-        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
-        <div class="d-flex justify-content-center">
-            <div class="card m-4 text-white text-center rounded-3">
-                <div class="card-body p-0">
-                    <img src="images\guitarists.png"  alt="photo" class="img-fluid rounded-3">
-                </div>
-            </div>
+        <div class="d-flex justify-content-center my-5">
+            <img src="images\guitarists.png"  alt="photo" class="img-fluid rounded-3">
         </div>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
+        <a href="">
+            <button class="see-more">
+                <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">See More</span>
+            </button>
+        </a>
 
+        <!-- Guides -->
+        <br><br>
         <h2>Guides</h2>
-        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
-        <div class="d-flex justify-content-center">
-            <div class="card m-4 text-white text-center rounded-3">
-                <div class="card-body p-0">
-                    <img src="images\guides.gif"  alt="photo" class="img-fluid rounded-3">
-                </div>
-            </div>
+        <div class="d-flex justify-content-center my-5">
+            <img src="images\guides.gif"  alt="photo" class="img-fluid rounded-3">
         </div>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
+        <a href="guides.html"> 
+            <button class="see-more">
+                <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Learn More</span>
+            </button>
+        </a> 
 
+        <!-- Learn -->
+        <br><br>
         <h2>Learn</h2>
-        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
-        <div class="d-flex justify-content-center mb-5">
-            <div class="card m-4 text-white text-center rounded-3">
-                <div class="card-body p-0">
-                    <img src="images\learn.gif"  alt="photo" class="img-fluid rounded-3">
-                </div>
-            </div>
+        <div class="d-flex justify-content-center my-5">
+            <img src="images\learn.gif"  alt="photo" class="img-fluid rounded-3">
         </div>
-
-
-
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore minima non quos ipsam perspiciatis numquam consectetur, quae libero quibusdam cupiditate recusandae, optio fugit delectus esse itaque saepe iure nostrum ipsa?</p>
+        <a href="learn.html">   
+            <button class="see-more">
+                <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Learn More</span>
+            </button>
+        </a>
 
     <!-- About -->
+    <br><br>
     <div class="container text-center" id="about">
         <h2>About Guitarista</h2>
         <hr>
@@ -119,14 +153,10 @@
             <img src="images/Guitarista-BW2.png"  alt="logo" class="img-fluid">
         </div>
         <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus laboriosam, cumque expedita blanditiis sapiente quis accusamus, cupiditate nihil veritatis nesciunt veniam fugiat. Odio dolores, praesentium dicta consequatur ratione accusantium officia quaerat eos distinctio minus repellat exercitationem aspernatur quis. Ex nobis minima nemo? Placeat ratione molestiae aut architecto explicabo libero aspernatur.</p>
+    </div>
+    <div class="my-3 float-end">
+        <a href="#top" style="color: white;">Back to the top<i class="bi bi-arrow-up"></i></a>
     </div>    
-    
-
-
-
-
-
-
     </main>
 
    
@@ -136,6 +166,13 @@
     <footer class="container-fluid text-center bg-gradient">
         <div class="my-3">
             <img src="images/Guitarista-BW2.png"  alt="logo" style="height: 150px;">
+        </div>
+        <div class="my-3 ">
+            Join Our Mailing list? Subscribe Now
+            <div class="input-group justify-content-center my-3">
+                <input type="email" class="input" id="Email" name="Email" placeholder="name@github.io" autocomplete="off">
+                <input class="button--submit" value="Subscribe" type="submit">
+            </div>
         </div>
         <div class="my-3">
             <a href="#" class="icon"><i class="bi bi-facebook mx-sm-2 mx-md-3"></i></a>
