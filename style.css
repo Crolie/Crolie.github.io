@@ -15,6 +15,17 @@ nav{
 }
 .dropdown:hover .dropdown-menu {
     display: block;
+    border-radius: 0%;
+    box-shadow: 1px 1px 2px #aaa;
+    /* padding: 0; */
+}
+/* .dropdown-menu >.dropdown-item:active{
+    color: white;
+    background-color: #252020;
+} */
+.dropdown-menu .dropdown-item:hover{
+    color: rgb(86, 187, 218);
+    background-color: white;
 }
 main{
     height: 100%;
