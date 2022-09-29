@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
 }
-header{
+/* header{
     background-color: #fffdfa;
     padding: 20px;
     text-align: center;
-}
+} */
 img{
     height: 100px;
 }
